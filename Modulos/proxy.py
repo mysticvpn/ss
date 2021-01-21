@@ -9,12 +9,12 @@ IP = '0.0.0.0'
 try:
    PORT = int(sys.argv[1])
 except:
-   PORT = 80
+   PORT = 8010
 PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 MSG = 'SSHPLUS'
-DEFAULT_HOST = '0.0.0.0:22'
+DEFAULT_HOST = '0.0.0.0:422'
 RESPONSE = "HTTP/1.1 200 " + str(MSG) + "\r\nContent-length: 0\r\n\r\n \r\n\r\n"
  
 class Server(threading.Thread):
