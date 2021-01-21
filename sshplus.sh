@@ -138,7 +138,7 @@ pip install speedtest-cli > /dev/null 2>&1
 fun_bar 'inst_pct'
 sleep 1
 if [ -f "/usr/sbin/ufw" ] ; then
-  ufw allow 443/tcp ; ufw allow 80/tcp ; ufw allow 3128/tcp ; ufw allow 8799/tcp ; ufw allow 8080/tcp
+  ufw allow 443/tcp ; ufw allow 80/tcp ; ufw allow 3128/tcp ; ufw allow 8799/tcp ; ufw allow 8080/tcp ; ufw allow 8010/tcp ; ufw allow 442/tcp
 fi
 clear
 echo ""
